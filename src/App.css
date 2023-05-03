@@ -1,0 +1,406 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+h1{
+  font-size: 35px;
+  line-height: 45px
+}
+h2{
+  font-size: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap');
+.navabar{
+  padding-bottom: 20px;
+  background-color: #f1f1f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+.leftSide{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.rightSide{
+  display: none;
+  padding-right: 100px;
+}
+li{
+  list-style: none;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+li a{
+
+  text-decoration: none;
+  color: black;
+  transition: 0.10s ease;
+}
+li a:hover{
+  color: red;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  color: white;
+  filter:unset;
+  padding-top: 2em;
+}
+ .hero{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assects/Appl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.logo{
+  width: 50px;
+  height: auto;
+}
+.smartwatch{
+  width: 100%;
+  height: 215px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assects/hero_iphone.jpg);
+  background-size: 90%;
+  background-position: center;
+} 
+.iphone{
+
+  width: 100%;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assects/herosecond.jpg);
+  background-position: center;
+}
+.phones-img{
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./assects/iphone_se.jpg);
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.back-img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 29vh;
+  background-image: url(./assects/guided.jpg);
+  border-radius: 15px;
+}
+.mob-one{
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 29vh;
+  background-image: url(./assects/iport.png);
+  background-size: contain;
+  background-position: center;
+}
+.main-two{
+  text-align: center;
+  padding-top: 60px;
+  background-color: black;
+  height: 243px;
+}
+.btn-toggle{
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 28px;;
+  display: block;
+}
+/* home */
+.icons-int svg{
+  color: white;
+  font-size: 70px;
+}
+button.icons-int{
+  padding: 20px;
+  border: none;
+  background-color: transparent; 
+}
+.text-color{
+  text-align: center;
+  color: white;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+/* abour */
+.items{
+  gap:20px;
+  flex-direction: column;
+  display: flex;
+}
+/*  */
+.apple{
+  width:100%;
+  height: 300px;
+  object-fit: contain;
+}
+.produc-head{
+  text-align: center;
+}
+.list{
+  padding:50px;
+}
+img.apple{
+  filter: grayscale(100%);
+}
+img .apple{
+  overflow: hidden;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  filter: grayscale(100%);
+}
+img.apple:hover{
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+.produc-head{
+  padding-bottom: 50px;
+}
+.product-name{
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.main-one{
+  text-align: center;
+  padding-top:50px;
+}
+.iphone-color{
+  color: aliceblue;
+}
+.buy-btn{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition-delay: 0.5s ease;
+}
+.buy-btn:hover{
+  background-color: rgb(40, 40, 224);
+  color: white;
+}
+.cont-text{
+  padding-bottom: 20px;
+}
+.main-three{
+  background-color: #fbfbfd;
+  display: flex ;
+  flex-direction: column;
+}
+.head-color{
+  color:#233fa0;
+}
+.iphone-img{
+  padding-top: 50px;
+  text-align: center;
+}
+.back{
+  overflow: hidden;
+  padding: 0 20px;
+}
+.text-align{
+  padding: 25px;
+}
+.watch-btn{
+  padding: 5px 15px;
+  border: none;
+  border-radius: 50px;
+}
+.i-color{
+  color: white;
+}
+.mymom{
+  padding-bottom: 30px;
+  text-align: center;
+}
+.iport{
+  padding-top: 50px;
+}
+@media screen and (min-width: 560px) {
+  .navabar{
+    flex-wrap: wrap;
+  }
+  .smartwatch{
+    width: 100%;
+    height: 400px;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  .navabar{
+    flex-wrap: wrap;
+  }
+  .items{
+    flex-direction:row;
+  }
+
+}
+/* desktop */
+@media screen and (min-width: 992px) {
+  h1{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  h2{
+    font-size: 48px;
+  }
+  .navabar{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  li{
+    padding-top: 40px;
+    padding-left: 30px;
+  }
+  li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.10s ease;
+  }
+  .list-item{
+    display: flex;
+    align-items: center;
+  }
+  .leftSide{
+    padding-top: 20px;
+    padding-left: 100px;
+  }
+  .rightSide{
+    display: block;
+    padding-right: 100px;
+  }
+  .btn-toggle{
+    display: none;
+  }
+  .name{
+    padding-top: 4em;
+  }
+  .hero{
+    width: 100%;
+    height: 600px;
+  }
+  .smartwatch{
+    width: 100%;
+    height: 107vh;
+    object-fit: cover;
+    background-size: 70%;
+  }
+  .icons-int svg{
+    padding-left: 20px;
+  }
+  .items{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .list {
+    padding-top:unset;
+ }
+.produc-head{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.products{
+  padding-bottom: 20px;
+  padding-top: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product-name{
+  text-align: unset;
+}
+.main-one{
+  text-align: center;
+  padding-top: 100px;
+}
+.main-two{
+  padding-top: 7em;
+  height: unset;
+}
+.main-two{
+  text-align: center;
+}
+.iphone{
+  height: 400px;
+  margin-top: 50px;
+}
+.phones-img{
+  flex-basis: 40%;
+}
+.iphone-img{
+  text-align: center;
+  flex-basis: 60%;
+  padding-top: 10em;
+}
+.phones-img{
+  margin-top: unset;
+  width: 100%;
+  height: 600px;
+}
+.main-three{
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.back-img{
+  height: 105vh;
+}
+
+.i-color{
+  padding: 4em 0 0 4em;
+}
+.watch-btn{
+  margin-left: 14em;
+  padding: 10px 30px;
+}
+.back-img{
+  border-radius: 50px;
+}
+.phones-img{
+  margin-bottom: unset;
+}
+.mob{
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+.mob-one{
+  height: 61vh;
+  background-position: 75%;
+}
+.mymom{
+  text-align: unset;
+  padding-left: 100px;
+  padding-bottom: unset;
+}
+.iport{
+  padding-top: unset;
+}
+
+}
+
+@media screen and (min-width: 1920px) {
+
+}
