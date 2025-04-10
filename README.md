@@ -1,18 +1,17 @@
-# iPhone Website Clone (React)
+# iPhone Website React
 
-This is a responsive React-based clone of Apple's iPhone product page, built using Create React App.
+A clean and responsive iPhone product website clone built using React.
 
 ## 🚀 Features
 
-- Mobile-first responsive design
-- React components for modular structure
-- CSS animations and transitions
-- Reusable sections and cards
+- Mobile-first responsive layout
+- Smooth animations with CSS
+- Organized components structure
+- Built with Create React App
 
-## 🔧 Getting Started
-
-### 1. Install dependencies:
+## 🛠️ Installation
 
 ```bash
 npm install
+npm start
 ```
