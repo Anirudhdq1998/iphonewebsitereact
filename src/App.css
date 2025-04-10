@@ -18,7 +18,7 @@ h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   padding-right: 20px;
   padding-top: 0px;
 }
@@ -49,7 +49,7 @@ li a:hover{
   justify-content: center;
   color: white;
   filter:unset;
-  padding-top: 2em;
+  padding-top: 3em;
 }
  .hero{
   width: 100%;
@@ -95,8 +95,8 @@ li a:hover{
 .back-img{
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 29vh;
+  background-size: contain;
+  height: 350px;
   background-image: url(./assects/guided.jpg);
   border-radius: 15px;
 }
@@ -124,10 +124,10 @@ li a:hover{
 /* home */
 .icons-int svg{
   color: white;
-  font-size: 70px;
+  font-size: 50px;
 }
 button.icons-int{
-  padding: 20px;
+  padding: 10px;
   border: none;
   background-color: transparent; 
 }
@@ -232,11 +232,39 @@ img.apple:hover{
   color: white;
 }
 .mymom{
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 30px;
   text-align: center;
 }
 .iport{
   padding-top: 50px;
+}
+.hiddenLisr{
+  display: block;
+}
+.navabar #open .hiddenLisr{
+  transition-delay: 0.5 ease;
+ display: block;
+}
+.navabar #close .hiddenLisr{
+  transition-delay: 0.5s ease;
+  display: none;
+}
+.head-one{
+  text-align: center;
+}
+.img-size{
+  height: 200px;
+  width: auto;
+}
+.sec-head{
+  padding-top: 20px;;
+  display: grid;
+  justify-content: center;
+}
+.img-div {
+  padding-top: 35px;
 }
 @media screen and (min-width: 560px) {
   .navabar{
@@ -245,6 +273,9 @@ img.apple:hover{
   .smartwatch{
     width: 100%;
     height: 400px;
+  }
+  .back-img{
+background-size: cover;
   }
 
 }
@@ -255,6 +286,7 @@ img.apple:hover{
   .items{
     flex-direction:row;
   }
+
 
 }
 /* desktop */
@@ -365,7 +397,8 @@ img.apple:hover{
   padding-bottom: 20px;
 }
 .back-img{
-  height: 105vh;
+  height: 600px;
+  background-size: contain;
 }
 
 .i-color{
@@ -376,6 +409,7 @@ img.apple:hover{
   padding: 10px 30px;
 }
 .back-img{
+  background-size: cover;
   border-radius: 50px;
 }
 .phones-img{
@@ -394,13 +428,41 @@ img.apple:hover{
   text-align: unset;
   padding-left: 100px;
   padding-bottom: unset;
+  padding-right: unset;
+  padding-left: 100px;
 }
 .iport{
   padding-top: unset;
 }
+.hiddenLisr{
+  display: none;
+}
+.hed-text{
 
+ aspect-ratio: 3/3;
+}
+.sec-head{
+  padding-top: 5em;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.img-size{
+  height: unset;
+}
+.icons-int svg{
+  font-size: 70px;
+}
+.sec-head{
+  display: flex;
+}
 }
 
+
 @media screen and (min-width: 1920px) {
+  .back-img{
+    height: 86vh;
+    background-size: cover;
+  }
 
 }

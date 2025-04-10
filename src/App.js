@@ -6,8 +6,9 @@ import About from './pages/About';
 import Smartwatch from './pages/Smartwatch';
 import Iphone from  './pages/Iphone'
 import Lovepower from './pages/Lovepower';
-import Second from './pages/Second';
+// import Second from './pages/Second';
 import Section from './pages/Section';
+import Phone from './pages/Phone';
 function App() {
   return (
     <div className='App'>
@@ -16,10 +17,12 @@ function App() {
       <Smartwatch/>
       <Iphone/>
       <Lovepower/>
-      <Second/>
+      {/* <Second/> */}
       <Section/>
       <About/>
+      <Phone/>
       <Footer/>
+
     </div>
   );
 }
